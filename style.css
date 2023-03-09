@@ -1,0 +1,118 @@
+body{
+    background-color: teal;
+}
+.main{
+    background-color:tomato;
+    height:830px;
+}
+.main .container{
+   display: flex;
+   flex-direction: column;
+}
+.main .container .para1{
+   margin:10px;
+   background-color:blue;
+   height:100px;
+   color:white;
+   text-align:center;
+   padding-top: 2%;
+   font-size: 30px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main .container .para2{
+   margin-top:0px;
+   margin-left:10px;
+   margin-right:10px;
+   margin-bottom: 10px;
+   background-color:green;
+   height:50px;
+   
+}
+.main .container .para2 ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 12%;
+    color:white;
+}
+.main .container .para3{
+   margin-top:0px;
+   margin-left:10px;
+   margin-right:10px;
+   margin-bottom: 10px;
+   background-color:white;
+   height:300px;
+}
+.main .para3{
+    display: flex;
+    flex-direction: row;
+}
+.main .container .para3 .para31{
+    background-color: blueviolet;
+    flex:2;
+    height:290px;
+    margin:5px;
+}
+.main .container .para3 .para31 ul li{
+list-style-type:circle;
+color:white;
+text-align: justify;
+padding: 5px;
+}
+
+.main .container .para3 .para32{
+    background-color:yellowgreen;
+    height:290px;
+    flex:1;
+    margin:5px;
+}
+
+
+.main .container .para3 .para32 h1,ul li{
+    text-align: center;
+    list-style-type:none;
+    padding:6px;
+    font-size: larger;
+    font-family: cursive;
+}
+.main .last{
+    display: flex;
+    flex-direction: row;
+}
+.main .last .box1{
+   background-color:white;
+   height:235px;
+   flex:1;
+   margin-left:10px;
+   margin-right: 5px;
+}
+.main .last .box2{
+   background-color:white;
+   height:235px;
+   flex:1;
+   margin-right: 5px;
+}
+.main .last .box3{
+  background-color:white;
+  height:235px;
+  flex:1;
+  margin-right: 5px;
+}
+.main .last .box4{
+background-color:white;
+height:235px;
+flex:1;
+margin-right:10px;
+}
+.container .footer{
+    width:98.7%;
+    height: 60px;
+    background-color:lightblue;
+    margin-top:7px;
+    margin-left:10px;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+.container .footer h1{
+    text-align:center;
+    color:blue;
+}
